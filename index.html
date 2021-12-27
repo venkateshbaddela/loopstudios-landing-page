@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <script defer src="script.js"></script>
+
+    <title>Frontend Mentor | Loopstudios landing page</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="head">
+      <div class="head-wrapper">
+        <div class="head-nav">
+          <img
+            src="images/logo.svg"
+            alt="company logo"
+            class="head-nav__logo"
+          />
+
+          <ul class="head-nav__list">
+            <li class="head-nav__list-item">About</li>
+            <li class="head-nav__list-item">Careers</li>
+            <li class="head-nav__list-item">Events</li>
+            <li class="head-nav__list-item">Products</li>
+            <li class="head-nav__list-item">Support</li>
+          </ul>
+        </div>
+
+        <button class="head-btn">
+          <img
+            src="images/icon-hamburger.svg"
+            alt="hamburger image"
+            class="head-btn__img"
+          />
+        </button>
+        <h1 class="head-nav__heading">Immersive experiences that deliver</h1>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="sec-lead">
+        <picture>
+          <source
+            media="(max-width:600px)"
+            srcset="images/mobile/image-interactive.jpg"
+          />
+
+          <img
+            src="images/desktop/image-interactive.jpg"
+            alt=""
+            class="sec-lead__img"
+          />
+        </picture>
+
+        <!-- Section--1 -->
+        <div class="sec-lead__con">
+          <h2 class="sec-lead__con-heading">The leader in interactive VR</h2>
+          <p class="sec-lead__con-txt">
+            Founded in 2011, Loopstudios has been producing world-class virtual
+            reality projects for some of the best companies around the globe.
+            Our award-winning creations have transformed businesses through
+            digital experiences that bind to their brand.
+          </p>
+        </div>
+      </section>
+
+      <!-- Section--2 -->
+      <section class="sec-create">
+        <h2 class="sec-create__heading">Our creations</h2>
+        <button class="sec-create__btn">See all</button>
+
+        <div class="sec-create__container">
+          <div class="sec-create__box">
+            <picture>
+              <source
+                media="(max-width:800px)"
+                srcset="images/mobile/image-deep-earth.jpg"
+              />
+
+              <img
+                src="images/desktop/image-deep-earth.jpg"
+                alt="earth image"
+                class="sec-create__box-img"
+              />
+            </picture>
+
+            <h3 class="sec-create__box-heading">Deep earth</h3>
+          </div>
+
+          <div class="sec-create__box">
+            <picture>
+              <source
+                media="(max-width:800px)"
+                srcset="images/mobile/image-night-arcade.jpg"
+              />
+
+              <img
+                src="images/desktop/image-night-arcade.jpg"
+                alt="arcade image"
+                class="sec-create__box-img"
+              />
+            </picture>
+
+            <h3 class="sec-create__box-heading">Night arcade</h3>
+          </div>
+
+          <div class="sec-create__box">
+            <picture>
+              <source
+                media="(max-width:800px)"
+                srcset="images/mobile/image-soccer-team.jpg"
+              />
+
+              <img
+                src="images/desktop/image-soccer-team.jpg"
+                alt="Soccer player image"
+                class="sec-create__box-img"
+              />
+            </picture>
+
+            <h3 class="sec-create__box-heading">Soccer team VR</h3>
+          </div>
+
+          <div class="sec-create__box">
+            <picture>
+              <source
+                media="(max-width:800px)"
+                srcset="images/mobile/image-grid.jpg"
+              />
+
+              <img
+                src="images/desktop/image-grid.jpg"
+                alt="race car image"
+                class="sec-create__box-img"
+              />
+            </picture>
+
+            <h3 class="sec-create__box-heading">The grid</h3>
+          </div>
+
+          <div class="sec-create__box">
+            <picture>
+              <source
+                media="(max-width:800px)"
+                srcset="images/mobile/image-from-above.jpg"
+              />
+
+              <img
+                src="images/desktop/image-from-above.jpg"
+                alt="road image"
+                class="sec-create__box-img"
+              />
+            </picture>
+
+            <h3 class="sec-create__box-heading">From up above VR</h3>
+          </div>
+
+          <div class="sec-create__box">
+            <picture>
+              <source
+                media="(max-width:800px)"
+                srcset="images/mobile/image-pocket-borealis.jpg"
+              />
+
+              <img
+                src="images/desktop/image-pocket-borealis.jpg"
+                alt="night sky image"
+                class="sec-create__box-img"
+              />
+            </picture>
+
+            <h3 class="sec-create__box-heading">Pocket borealis</h3>
+          </div>
+
+          <div class="sec-create__box">
+            <picture>
+              <source
+                media="(max-width:800px)"
+                srcset="images/mobile/image-curiosity.jpg"
+              />
+
+              <img
+                src="images/desktop/image-curiosity.jpg"
+                alt="night sky image"
+                class="sec-create__box-img"
+              />
+            </picture>
+
+            <h3 class="sec-create__box-heading">The curiosity</h3>
+          </div>
+
+          <div class="sec-create__box">
+            <picture>
+              <source
+                media="(max-width:800px)"
+                srcset="images/mobile/image-fisheye.jpg"
+              />
+
+              <img
+                src="images/desktop/image-fisheye.jpg"
+                alt="night sky image"
+                class="sec-create__box-img"
+              />
+            </picture>
+            <h3 class="sec-create__box-heading">Make it fisheye</h3>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+
+    <footer class="foot">
+      <div class="foot-wrapper">
+        <img src="images/logo.svg" alt="company logo" class="foot-logo" />
+        <ul class="foot-soc__list">
+          <li class="foot-soc__list-item">
+            <img
+              src="images/icon-facebook.svg"
+              alt="facebook logo"
+              class="foot-soc__list-img"
+            />
+          </li>
+          <li class="foot-soc__list-item">
+            <img
+              src="images/icon-twitter.svg"
+              alt="twitter logo"
+              class="foot-soc__list-img"
+            />
+          </li>
+          <li class="foot-soc__list-item">
+            <img
+              src="images/icon-pinterest.svg"
+              alt="pinterest logo"
+              class="foot-soc__list-img"
+            />
+          </li>
+          <li class="foot-soc__list-item">
+            <img
+              src="images/icon-instagram.svg"
+              alt="instagram logo"
+              class="foot-soc__list-img"
+            />
+          </li>
+        </ul>
+
+        <ul class="foot-nav__list">
+          <li class="foot-nav__list-item">About</li>
+          <li class="foot-nav__list-item">Careers</li>
+          <li class="foot-nav__list-item">Events</li>
+          <li class="foot-nav__list-item">Products</li>
+          <li class="foot-nav__list-item">Support</li>
+        </ul>
+
+        <p class="foot-copyright">© 2021 Loopstudios. All rights reserved.</p>
+
+        <div class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="#">venkatesh.b</a>.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
